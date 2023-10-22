@@ -1,2 +1,2 @@
 # tools
-clcok: display a clock in the second screen.
+clock.pyw: Show the time on the secondary display.
