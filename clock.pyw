@@ -2,9 +2,9 @@ import tkinter as tk
 from time import strftime
 
 def time():
-    string = strftime('%Y/%m/%d %A\n%H:%M:%S %p')
+    string = strftime('%Y/%m/%d %A\n%H:%M %p')
     label.config(text=string)
-    label.after(1000, time)
+    label.after(60000, time)
 
 root = tk.Tk()
 root.title("Big Clock")
