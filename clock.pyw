@@ -2,7 +2,7 @@ import tkinter as tk
 from time import strftime
 
 def time():
-    string = strftime('%Y/%m/%d %A\n%H:%M %p')
+    string = strftime('%Y/%m/%d\n%A\n%H:%M %p')
     label.config(text=string)
     label.after(60000, time)
 
